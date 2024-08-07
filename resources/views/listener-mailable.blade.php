@@ -25,17 +25,17 @@
 
                     <div class="form-group mb-3">
                         <label for="">Name</label>
-                        <input type="text" name="name" class="form-control">
+                        <input type="text" name="name" class="form-control" required>
                     </div>
 
                     <div class="form-group mb-3">
                         <label for="">Email</label>
-                        <input type="text" name="email" class="form-control">
+                        <input type="text" name="email" class="form-control" required>
                     </div>
 
                     <div class="form-group mb-3">
                         <label for="">Address</label>
-                        <input type="text" name="address" class="form-control">
+                        <input type="text" name="address" class="form-control" required>
                     </div>
 
                     <div class="form-group mb-3">
