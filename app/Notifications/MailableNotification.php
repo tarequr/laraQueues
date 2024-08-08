@@ -11,12 +11,14 @@ class MailableNotification extends Notification
 {
     use Queueable;
 
+    public $listenerMailable;
+
     /**
      * Create a new notification instance.
      */
-    public function __construct()
+    public function __construct($listenerMailable)
     {
-        //
+        $this->listenerMailable = $listenerMailable;
     }
 
     /**
